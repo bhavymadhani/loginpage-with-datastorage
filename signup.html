@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/327fe4b22c.js" crossorigin="anonymous"></script>
+    <title>welcome to signup page</title>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="signup.css">
+    
+</head>
+
+<body>
+    <Div id="container">
+        <form name="myForm" id="sign" class="logins" method="get" action="signup.html" onsubmit="validateForm()||matchPass() " return false>
+            <div class="sign-up">
+                <a href="signin.html">SIGN IN</a>
+                <a href="signup.html">SIGN UP</a>
+            </div>
+            <div class="signup">
+                <div>
+
+                    <i class="fa-solid fa-user-pen"></i>
+                    <input id="fname" class="f-name" type="text" name="fname" placeholder="Fullname">
+                    <small style="color: red;" class="error" id="msg"></small>
+                    <br><br><br>
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-envelope"></i>
+                    <input id="email" class="emailidup" type="email" name="email" placeholder="Username">
+                    <small style="color: red;" class="error" id="msg1"></small>
+                    <br><br><br>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-address-book tel"></i>
+                    <input id="tel" class="phonenumber" type="tel" name="phonenumber" placeholder="please enter number">
+                    <small style="color: red;" class="error" id="msg2"></small>
+                    <br><br><br>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-lock lock"></i>
+                    <input id="pass" class="pwup" type="password" name="pass" placeholder="Password">
+                    <small style="color: red;" class="error" id="msg3"></small>
+                    <br><br><br>
+                    <i class="fa-solid fa-lock clock"></i>
+                    <input class="c-pw" type="password" name="cpassword" placeholder="Comfirm Password">
+                </div>
+
+
+
+            </div>
+            <div id="genders">
+                <input type="radio" id="gender" name="gender_male"> Male <i class="fa-solid fa-mars"></i>
+                <input type="radio" id="genderF" name="gender_female"> Female <i class="fa-solid fa-venus"></i>
+                <input type="radio" id="genderO" name="gender_other">Other <i class="fa-solid fa-transgender"></i>
+
+            </div>
+            <div>
+
+                <input class="btn2" type="submit" value="Sign Up" onclick="saveData()">
+            </div>
+
+        </form>
+
+    </Div>
+</body>
+
+</html>

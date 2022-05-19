@@ -1,0 +1,202 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-size: 100%;
+}
+
+body {
+    background-color: rgb(6, 176, 244);
+}
+
+#container {
+    background-color: aliceblue;
+    align-content: center;
+    height: 650px;
+    width: 450px;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.sign-up a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    margin-right: 8.5px;
+    margin-left: 8.5px;
+}
+
+.sign-up a:hover {
+    border-bottom: 3px solid rgb(6, 176, 244);
+}
+
+.sign-up {
+    margin-top: 5px;
+}
+
+.f-name {
+    position: relative;
+    top: 100px;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+#msg {
+    position: relative;
+    top: 120px;
+    right: 30%;
+}
+
+#msg1 {
+    position: relative;
+    top: 130px;
+    right: 30%;
+}
+
+#msg2 {
+    position: relative;
+    top: 140px;
+    right: 30%;
+}
+
+#msg3 {
+    position: relative;
+    top: 150px;
+    right: 30%;
+}
+
+.emailidup {
+    position: relative;
+    top: 110px;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.phonenumber {
+    position: relative;
+    top: 120px;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.pwup {
+    position: relative;
+    top: 130px;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.c-pw {
+    position: relative;
+    top: 140px;
+    outline: 0;
+    border-width: 0 0 2px;
+    background-color: transparent;
+    border-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.fa-user-pen {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.fa-envelope {
+    position: relative;
+    top: 110px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.tel {
+    position: relative;
+    top: 120px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.lock {
+    position: relative;
+    top: 130px;
+    left: 10px;
+    font-size: 18px;
+}
+
+.clock {
+    position: relative;
+    top: 140px;
+    left: 10px;
+    font-size: 18px;
+}
+
+
+/* Gender css */
+
+#genders {
+    position: relative;
+    top: 180px;
+    left: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.btn2 {
+    position: relative;
+    top: 215px;
+    left: 25px;
+    background-color: rgb(6, 176, 244);
+    font-size: 15px;
+    padding: 12px 50px;
+    outline: 0;
+    border: none;
+    color: white;
+}
+
+.btn2:hover {
+    color: black;
+    transition: .8s;
+    box-shadow: 0 0 5px 5px black;
+    cursor: pointer;
+}
+
+.error {
+    margin-top: 110px;
+}

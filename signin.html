@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/327fe4b22c.js" crossorigin="anonymous"></script>
+    <title>welcome to login page</title>
+    <script src="signin.js"></script>
+    <link rel="stylesheet" href="signin.css">
+    
+</head>
+
+<body>
+    <Div id="container">
+        <form name="myForm" id="login" method="get" action="#" class="logins" onsubmit="validateForm();
+        return false">
+            <div class="sign-in">
+
+                <a href="signin.html">SIGN IN</a>
+                <a href="signup.html">SIGN UP</a>
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-user"></i> <input id="email" class="emailid" type="email" name="email" placeholder="Username">
+                <small style="color: red;" id="errormsg"></small>
+
+                <br> <br><br>
+
+                <i class="fa-solid fa-key key"></i><input id="pass" class="pw" type="password" name="pass" placeholder="Password">
+                <small style="color: red;" id="errormsgs"></small>
+
+                <br><br>
+
+                <div id="buttona">
+                    <input type="submit" class="btn" value="Login" onclick="saveData()">
+                </div>
+
+
+
+            </div>
+
+            <div id="fpass">
+
+                <a href="#">Forgot Password?</a>
+
+
+            </div>
+        </form>
+
+    </Div>
+</body>
+
+</html>
